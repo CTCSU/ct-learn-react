@@ -14,6 +14,7 @@ const Input = (props) => {
           className="form-control"
           id="listItemInput"
           placeholder="Add new todo"
+          style={{ "margin-bottom": 20 }}
           onChange={props.inputChange.bind(this)}
           value={props.value}
         />
